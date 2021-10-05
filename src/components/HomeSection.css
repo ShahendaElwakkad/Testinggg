@@ -1,0 +1,25 @@
+.container-fluid{
+	padding: 3% 15% 7%;
+	
+}
+
+#features{
+	padding: 7% 15%;
+	position: relative;
+	z-index: 1;
+}
+
+.feature-box{
+	text-align: center;
+	padding: 5%;
+	
+}
+
+.icon{
+	color: gold;
+	margin-bottom: 1rem;
+}
+
+.icon:hover{
+	color: #000D1A;
+}
