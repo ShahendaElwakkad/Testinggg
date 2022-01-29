@@ -5,82 +5,6 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.home,
-.services,
-.products,
-.contact-us,
-.sign-up,
-.marketing,.design{
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-}
-
-.home {
-  background-image: url('./images/servicespage.jpg');
-  background-position: center;
-  /* background-size: cover; */
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.services {
-  background-image: url('./images/HeroImg.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.products {
-  background-image: url('./images/products.png');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.contact-us {
-  background-image: url('./images/contactuspage.jpg');
-  background-position: center;
-  /* background-size: cover; */
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-
-.sign-up {
-  background-image: url('./images/join-us.jpg');
-  background-position: center;
-  /* background-size: cover; */
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.marketing {
-  background-image: url('./images/marketing.jpg');
-  background-position: center;
-  /* background-size: cover; */
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.design{
-    background-image: url('./images/designHero.JPG');
-    background-position: center;
-    /* background-size: cover; */
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
 
 
 
@@ -93,15 +17,15 @@
   height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background: gold;
+  background: black;
   border: 0px none #ffffff;
   border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #f7e9e9;
+  background: red;
 }
 ::-webkit-scrollbar-thumb:active {
-  background: gold;
+  background: red;
 }
 ::-webkit-scrollbar-track {
   background: #000D1A;
@@ -109,10 +33,10 @@
   border-radius: 50px;
 }
 ::-webkit-scrollbar-track:hover {
-  background: #666666;
+  background: red;
 }
 ::-webkit-scrollbar-track:active {
-  background: #333333;
+  background: red;
 }
 ::-webkit-scrollbar-corner {
   background: transparent;

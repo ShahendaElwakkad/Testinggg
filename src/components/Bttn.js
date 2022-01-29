@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export function Bttn() {
   return (
-    <Link to='contact-us'>
+    <Link to=''>
       <button className='btn'>Contact Us</button>
     </Link>
   );

@@ -3,6 +3,8 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Dropdown from './Dropdown';
+import image from '../images/logo.JPG';
+
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -30,9 +32,7 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          Wasta
-        </Link>
+        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}> <img src={image}></img></Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
@@ -48,39 +48,39 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
           >
             <Link
-              to='/services'
+              to='/TrackingShipment'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Services <i className='fas fa-caret-down' />
+              Tracking Shipment <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}
           </li>
           <li className='nav-item'>
             <Link
-              to='/products'
+              to='/Pricing'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Products
+              Pricing
             </Link>
           </li>
           <li className='nav-item'>
             <Link
-              to='/contact-us'
+              to='/ContactSales'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Contact Us
+              Contact Sales
             </Link>
           </li>
           <li>
             <Link
-              to='/sign-up'
+              to='/SignIn'
               className='nav-links-mobile'
               onClick={closeMobileMenu}
             >
-              Sign Up
+              Sign In
             </Link>
           </li>
         </ul>

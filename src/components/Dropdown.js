@@ -17,12 +17,10 @@ function Dropdown() {
         {MenuItems.map((item, index) => {
           return (
             <li key={index}>
-              <Link
-                className={item.cName}
-                to={item.path}
-                onClick={() => setClick(false)}
-              >
+              <Link className={item.cName} to={item.path} onClick={() => setClick(false)}>
                 {item.title}
+                {/* <p className='paragraph1'>Enter your Tracking No.</p>
+                <input className="input1" type="text" placeholder=" Search "></input> */}
               </Link>
             </li>
           );
