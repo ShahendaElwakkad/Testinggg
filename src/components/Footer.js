@@ -4,9 +4,10 @@ import styled from 'styled-components';
 
 const Box = styled.div`
   padding: 80px 60px;
-  background: #000D1A;
+  background: black;
   bottom: 0;
   width: 100%;
+  margin-top:10%;
   
    
   @media (max-width: 1000px) {
@@ -34,6 +35,7 @@ const Row = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
   grid-gap: 20px;
+
    
   @media (max-width: 1000px) {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -47,7 +49,7 @@ const FooterLink = styled.a`
   text-decoration: none;
    
   &:hover {
-      color: gold;
+      color: red;
       transition: 200ms ease-in;
   }
 `;
@@ -65,24 +67,9 @@ const Footer = () => {
         <Container>
           <Row>
             <Column>
-              <Heading>About Us</Heading>
-              <FooterLink href="#">Aim</FooterLink>
-              <FooterLink href="#">Vision</FooterLink>
-              <FooterLink href="#">Responsibility</FooterLink>
-            </Column>
-            <Column>
-              <Heading>Services</Heading>
-              <FooterLink href="#">Marketing</FooterLink>
-              <FooterLink href="#">Consulting</FooterLink>
-              <FooterLink href="#">Design</FooterLink>
-              <FooterLink href="#">Development</FooterLink>
-            </Column>
-            <Column>
-              <Heading>Contact Us</Heading>
-              <FooterLink href="#">Egypt</FooterLink>
-              <FooterLink href="#">USA</FooterLink>
-              <FooterLink href="#">Dubai</FooterLink>
-              <FooterLink href="#">Emirates</FooterLink>
+              <Heading>Shipments</Heading>
+              <FooterLink href="/Pricing">Our Pricing</FooterLink>
+              <FooterLink href="/TrackingShipment">Tracking Shipment</FooterLink>
             </Column>
             <Column>
               <Heading>Social Media</Heading>

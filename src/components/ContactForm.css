@@ -1,0 +1,14 @@
+.contact-form{
+    margin-top: 5%;
+}
+.send-button{
+    background-color: red;
+    color:white;
+    border-radius: 50px;
+}
+
+.donotHaveAccount{
+    color:black;
+    padding: 10%;
+    text-align: center;
+}

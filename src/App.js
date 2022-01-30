@@ -16,12 +16,10 @@ function App() {
         <Route path="/" exact element={<Home />} />
         <Route path="/ContactSales" element={<ContactSales />} />
         <Route path="/Pricing" element={<Pricing />} />
-        <Route
-          path="/TrackingShipment/:track_num"
-          element={<TrackingShipment />}
-        />
-        <Route path="SignIn" element={<SignIn />} />
+        <Route path="/TrackingShipment/:track_num" element={<TrackingShipment />} />
+        <Route path="/SignIn" element={<SignIn />} />
       </Routes>
+     
     </div>
   );
 }

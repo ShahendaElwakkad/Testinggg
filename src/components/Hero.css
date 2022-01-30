@@ -14,12 +14,13 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  margin-top: 5px;
 }
 
 .hero-text {
   text-align: left;
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 20%;
   transform: translate(-50%, -50%);
   color: white;
@@ -37,7 +38,7 @@ body, html {
   text-align: center;
   cursor: pointer;
   font-weight: bold;
-  margin-top: 40px;
+  margin-top: 30px;
   font-size: 20px;
   
 }

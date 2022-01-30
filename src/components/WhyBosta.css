@@ -1,0 +1,14 @@
+.whybosta{
+    box-sizing: border-box;
+    height: auto;
+    max-width: 100%;
+}
+
+.title-whybosta{
+    text-align: center;
+    align-items: center;
+    color:red;
+    font-weight: bold;
+    font-size: 2.5vw;
+    padding-top: 10%;
+}
