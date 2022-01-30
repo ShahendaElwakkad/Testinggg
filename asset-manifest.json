@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Bosta-react-app.git/static/css/main.c4675d0c.chunk.css",
+    "main.js": "/Bosta-react-app.git/static/js/main.f431ea1c.chunk.js",
+    "main.js.map": "/Bosta-react-app.git/static/js/main.f431ea1c.chunk.js.map",
+    "runtime-main.js": "/Bosta-react-app.git/static/js/runtime-main.84b42ecc.js",
+    "runtime-main.js.map": "/Bosta-react-app.git/static/js/runtime-main.84b42ecc.js.map",
+    "static/js/2.98d9cd42.chunk.js": "/Bosta-react-app.git/static/js/2.98d9cd42.chunk.js",
+    "static/js/2.98d9cd42.chunk.js.map": "/Bosta-react-app.git/static/js/2.98d9cd42.chunk.js.map",
+    "index.html": "/Bosta-react-app.git/index.html",
+    "static/css/main.c4675d0c.chunk.css.map": "/Bosta-react-app.git/static/css/main.c4675d0c.chunk.css.map",
+    "static/js/2.98d9cd42.chunk.js.LICENSE.txt": "/Bosta-react-app.git/static/js/2.98d9cd42.chunk.js.LICENSE.txt",
+    "static/media/Capture1.7c942f90.JPG": "/Bosta-react-app.git/static/media/Capture1.7c942f90.JPG",
+    "static/media/Capture2.a2472712.JPG": "/Bosta-react-app.git/static/media/Capture2.a2472712.JPG",
+    "static/media/HeroImg.9c082874.jpg": "/Bosta-react-app.git/static/media/HeroImg.9c082874.jpg",
+    "static/media/logo.456e7daf.JPG": "/Bosta-react-app.git/static/media/logo.456e7daf.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84b42ecc.js",
+    "static/js/2.98d9cd42.chunk.js",
+    "static/css/main.c4675d0c.chunk.css",
+    "static/js/main.f431ea1c.chunk.js"
+  ]
+}
