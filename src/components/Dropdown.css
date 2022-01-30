@@ -1,52 +1,14 @@
-.dropdown-menu {
-  width: 500px;
-  position: absolute;
-  top: 80px;
-  list-style: none;
-  text-align: start;
+.dropdown-paragraph{
+    margin-top:15px;
+
 }
-
-.dropdown-menu li {
-  background: white;
-  cursor: pointer;
-}
-
-.dropdown-menu li:hover {
-  background: white;
-}
-
-.dropdown-menu.clicked {
-  display: none;
-}
-
-.dropdown-link {
-  display: block;
-  height: 100%;
-  width: 100%;
-  text-decoration: none;
-  color: black;
-  padding: 16px;
-}
-
-@media screen and (max-width: 960px) {
-  .fa-caret-down {
-    display: none;
-  }
-}
-
-
-.paragraph1{
-  color:grey;
-  font-size: 1rem;
-  margin-top:20px;
-  padding-left: -2px;
-}
-
-.input1{
-  margin-top:10px;
-  color:black;
-}
-
-.icon{
-  color: black;
+.dropdown-search{
+    margin-top:15px;
+   color:white;
+   background-color: red;
+   /* border-radius: 50%; */
+   border: none;
+   padding:8px;
+   margin-left: 15px;
+   cursor: pointer;
 }

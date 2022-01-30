@@ -1,0 +1,24 @@
+.data-ShipNo{
+    margin-top: 40px;
+    padding: 10px;
+    justify-content: right;
+    margin:50px;
+    color: black;
+    font-size: 1rem;
+    
+}
+
+.data-ShipStatus{
+    margin-top: 40px;
+    justify-content: right;
+    margin:50px;
+    color: green;
+    font-size: 2rem;
+}
+
+.data-date{
+    margin:70px;
+    color: black;
+    font-size: 1rem
+
+}
